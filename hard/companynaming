@@ -1,0 +1,19 @@
+class Solution {
+public:
+    long long distinctNames(vector<string>& ideas) {
+        
+        unordered_map <string, string> idea_map;
+        int count = 0;
+        for (const auto &idea : ideas) {
+            idea_map[idea] = count++;
+        } 
+
+        multimap<string, string> new_ideas;
+        // to add all combos, add a pivot to ideas, creating a subset on both sides of pivot, add to multimap pivot + all elements in subset. Move pivot until iterated through ideas.
+        // easy to swap each first letter of each k/v
+        // compare each k/v with idea_map, count++ if found
+
+        long long jeff = 1;
+        return jeff;
+    }
+};
