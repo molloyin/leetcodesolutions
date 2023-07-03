@@ -8,6 +8,7 @@ class Solution(object):
 
         # convert nums to hashmap, value:index
         # loop through nums, check if target - nums[i] is in the map
+        #       Note: could improve by initialzing map in enum loop
 
         nums_map = {}
         for i in range(len(nums)):
