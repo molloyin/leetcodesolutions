@@ -19,3 +19,5 @@ class Solution(object):
             highest_freqs.append(sorted_freqs[i][0])
 
         return highest_freqs
+
+    # Note: lucked into top 7% of solutions 
